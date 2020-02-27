@@ -4,7 +4,7 @@ public class Warmup  {
 		//main
 		//q1
 		int i=0;
-		int r=-5;
+		int r=-10;
 		while(i<100){
 		 System.out.println(r+",");
           r=r+5;
