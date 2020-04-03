@@ -17,7 +17,7 @@ public class MethodsPractice{
 		while(n%p!=0){
 			n++;
 		}
-		int remain=n%p;
+		int remain=n-(f+1)*c;
 		int packs=n/p;
 		System.out.println(packs+" pack(S) "+remain+" extra can(s) ");
 	
